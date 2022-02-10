@@ -1,0 +1,81 @@
+
+* {
+    font-family: 'Bebas Neue', cursive;
+}
+
+
+.playerchoice{
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 5rem;
+
+}
+
+.choiceContainer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1rem;
+}
+
+.pickContainer{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+#playerEmojiChoice, #computerEmojiChoice {
+    font-size: 2rem;
+}
+
+
+.resultsContainer{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.resultsPara{
+    text-align: center;
+}
+
+#playerScoreDisplay, #computerScoreDisplay, #roundDisplay {
+    font-size: 3rem;
+}
+
+#resultsPara{
+    font-size: 2rem;
+}
+
+.scoreContainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+
+}
+
+.labels{
+    font-size: 3rem;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+}
+
+#restartBtn{
+    display: none;
+    width: 20rem;
+    height: auto;
+    font-size: 2rem;
+}
+
+
+.roundContainer{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    
+}

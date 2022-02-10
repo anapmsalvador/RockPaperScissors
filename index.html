@@ -4,29 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Rock, Paper, or Scissors?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+
 </head>
 <body>
-    <h1>Rock Paper Scissors</h1>
-
-    <button class="playerchoice" id="rock">Rock</button>
-    <button class="playerchoice" id="paper">Paper</button>
-    <button class="playerchoice" id="scissors">Scissors</button>
-
-    <p id="resultsPara"></p>
-
-    <div > Round: <span id="roundDisplay"> 0 </span></div>
-    <div > Your score: <span id="playerScoreDisplay"> 0 </span></div>
-    <div > Computer score: <span id="computerScoreDisplay"> 0 </span> </div>
 
 
+<!-- Title of the game -->
+
+    <header class="title">
+        
+    </header>
     
-    <p id="restartPara"></p>
+
+<!-- Round keeper -->
+
+    <div class="roundContainer">
+        <div class="labels"> Round <span id="roundDisplay"> 0 </span></div>
+    </div>
+
+ <!-- Score and Round Keeper -->
+   
+    <div class="scoreContainer">
+
+        <div class="playerContainer">
+            <div class="labels"> 😁 : <span id="playerScoreDisplay"> 0 </span></div>
+        </div>
+    
+        <div class="computerContainer">
+            <div class="labels"> 🤖 : <span id="computerScoreDisplay"> 0 </span> </div>
+        </div>
+        
+    </div>
+
+
+<!-- Choice Selection -->
+
+    <div class="choiceContainer">
+        <button class="playerchoice" id="rock">✊</button>
+        <button class="playerchoice" id="paper">🖐</button>
+        <button class="playerchoice" id="scissors">✌️</button>
+    </div>
+
+
+
+<!-- Pick Keeper -->
+
+    <div class="pickContainer">
+        <div class="playerChoiceContainer">
+            <p id="playerEmojiChoice"></p>
+        </div>
+
+        <div class="computerChoiceContainer">
+            <p id="computerEmojiChoice"></p>
+        </div>
+    </div>
+
+
+
+<!-- Results -->
+ 
+    <div class="resultsContainer">
+        <p id="resultsPara"></p>
+    </div>
+
+
+<!-- Restart -->
+
+   <div class="buttonContainer">
     <button id="restartBtn">Restart Game</button>
-
+   </div>
     
 
-
+<!-- Scripts -->
     <script src="app.js"></script>
 </body>
 </html>
